@@ -37,6 +37,7 @@ Update the scripts section in your package.json to include commands for building
     "test": "react-scripts test",
     "eject": "react-scripts eject"
 }
+
 4. Install env-cmd
 To easily manage multiple environment files, install env-cmd:
 
@@ -80,6 +81,8 @@ In your Node.js project, create environment files for each environment:
 .env.development
 .env.production
 .env.uat
+
+
 2. Define Environment Variables
 Add environment-specific variables to each file. For example:
 
